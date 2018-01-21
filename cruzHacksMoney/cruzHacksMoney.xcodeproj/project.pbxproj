@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84AE5151201343E60047313C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE5150201343E60047313C /* AppDelegate.swift */; };
+		84AE5156201343E60047313C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE5154201343E60047313C /* Main.storyboard */; };
+		84AE5158201343E60047313C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AE5157201343E60047313C /* Assets.xcassets */; };
+		84AE515B201343E60047313C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AE5159201343E60047313C /* LaunchScreen.storyboard */; };
+		84AE5166201343E60047313C /* cruzHacksMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE5165201343E60047313C /* cruzHacksMoneyTests.swift */; };
+		84AE5171201343E60047313C /* cruzHacksMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE5170201343E60047313C /* cruzHacksMoneyUITests.swift */; };
+		84AE517F201344B40047313C /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE517E201344B40047313C /* HomeTableViewController.swift */; };
+		84AE5181201348EE0047313C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE5180201348EE0047313C /* WelcomeViewController.swift */; };
+		84AE5183201350220047313C /* userData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE5182201350220047313C /* userData.swift */; };
+		84AE51852013673A0047313C /* IncomeAssetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE51842013673A0047313C /* IncomeAssetTableViewController.swift */; };
+		84AE51872013CB6E0047313C /* ReviewIncomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE51862013CB6E0047313C /* ReviewIncomeViewController.swift */; };
+		84AE51892013F7920047313C /* ExpensesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE51882013F7910047313C /* ExpensesTableViewController.swift */; };
+		84AE518B201413B20047313C /* ExpensesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE518A201413B20047313C /* ExpensesTableViewCell.swift */; };
+		84AE518D20141BC20047313C /* ExpensesDetailedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE518C20141BC20047313C /* ExpensesDetailedTableViewController.swift */; };
+		84AE518F201464230047313C /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AE518E201464230047313C /* ResultTableViewController.swift */; };
+		84F045E32014FDD2000537BC /* AdviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F045E22014FDD2000537BC /* AdviceTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84AE5162201343E60047313C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AE5145201343E60047313C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AE514C201343E60047313C;
+			remoteInfo = cruzHacksMoney;
+		};
+		84AE516D201343E60047313C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AE5145201343E60047313C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AE514C201343E60047313C;
+			remoteInfo = cruzHacksMoney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84AE514D201343E60047313C /* cruzHacksMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cruzHacksMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AE5150201343E60047313C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84AE5155201343E60047313C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84AE5157201343E60047313C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84AE515A201343E60047313C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84AE515C201343E60047313C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AE5161201343E60047313C /* cruzHacksMoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cruzHacksMoneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AE5165201343E60047313C /* cruzHacksMoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cruzHacksMoneyTests.swift; sourceTree = "<group>"; };
+		84AE5167201343E60047313C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AE516C201343E60047313C /* cruzHacksMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cruzHacksMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AE5170201343E60047313C /* cruzHacksMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cruzHacksMoneyUITests.swift; sourceTree = "<group>"; };
+		84AE5172201343E60047313C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AE517E201344B40047313C /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		84AE5180201348EE0047313C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		84AE5182201350220047313C /* userData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userData.swift; sourceTree = "<group>"; };
+		84AE51842013673A0047313C /* IncomeAssetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeAssetTableViewController.swift; sourceTree = "<group>"; };
+		84AE51862013CB6E0047313C /* ReviewIncomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewIncomeViewController.swift; sourceTree = "<group>"; };
+		84AE51882013F7910047313C /* ExpensesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesTableViewController.swift; sourceTree = "<group>"; };
+		84AE518A201413B20047313C /* ExpensesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesTableViewCell.swift; sourceTree = "<group>"; };
+		84AE518C20141BC20047313C /* ExpensesDetailedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesDetailedTableViewController.swift; sourceTree = "<group>"; };
+		84AE518E201464230047313C /* ResultTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewController.swift; sourceTree = "<group>"; };
+		84F045E22014FDD2000537BC /* AdviceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AE514A201343E60047313C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AE515E201343E60047313C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AE5169201343E60047313C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AE5144201343E60047313C = {
+			isa = PBXGroup;
+			children = (
+				84AE514F201343E60047313C /* cruzHacksMoney */,
+				84AE5164201343E60047313C /* cruzHacksMoneyTests */,
+				84AE516F201343E60047313C /* cruzHacksMoneyUITests */,
+				84AE514E201343E60047313C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AE514E201343E60047313C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AE514D201343E60047313C /* cruzHacksMoney.app */,
+				84AE5161201343E60047313C /* cruzHacksMoneyTests.xctest */,
+				84AE516C201343E60047313C /* cruzHacksMoneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AE514F201343E60047313C /* cruzHacksMoney */ = {
+			isa = PBXGroup;
+			children = (
+				84AE5150201343E60047313C /* AppDelegate.swift */,
+				84AE517E201344B40047313C /* HomeTableViewController.swift */,
+				84AE5180201348EE0047313C /* WelcomeViewController.swift */,
+				84AE51842013673A0047313C /* IncomeAssetTableViewController.swift */,
+				84AE51862013CB6E0047313C /* ReviewIncomeViewController.swift */,
+				84AE51882013F7910047313C /* ExpensesTableViewController.swift */,
+				84AE518A201413B20047313C /* ExpensesTableViewCell.swift */,
+				84AE518C20141BC20047313C /* ExpensesDetailedTableViewController.swift */,
+				84AE518E201464230047313C /* ResultTableViewController.swift */,
+				84AE5154201343E60047313C /* Main.storyboard */,
+				84F045E22014FDD2000537BC /* AdviceTableViewController.swift */,
+				84AE5182201350220047313C /* userData.swift */,
+				84AE5157201343E60047313C /* Assets.xcassets */,
+				84AE5159201343E60047313C /* LaunchScreen.storyboard */,
+				84AE515C201343E60047313C /* Info.plist */,
+			);
+			path = cruzHacksMoney;
+			sourceTree = "<group>";
+		};
+		84AE5164201343E60047313C /* cruzHacksMoneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				84AE5165201343E60047313C /* cruzHacksMoneyTests.swift */,
+				84AE5167201343E60047313C /* Info.plist */,
+			);
+			path = cruzHacksMoneyTests;
+			sourceTree = "<group>";
+		};
+		84AE516F201343E60047313C /* cruzHacksMoneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84AE5170201343E60047313C /* cruzHacksMoneyUITests.swift */,
+				84AE5172201343E60047313C /* Info.plist */,
+			);
+			path = cruzHacksMoneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AE514C201343E60047313C /* cruzHacksMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AE5175201343E60047313C /* Build configuration list for PBXNativeTarget "cruzHacksMoney" */;
+			buildPhases = (
+				84AE5149201343E60047313C /* Sources */,
+				84AE514A201343E60047313C /* Frameworks */,
+				84AE514B201343E60047313C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cruzHacksMoney;
+			productName = cruzHacksMoney;
+			productReference = 84AE514D201343E60047313C /* cruzHacksMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84AE5160201343E60047313C /* cruzHacksMoneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AE5178201343E60047313C /* Build configuration list for PBXNativeTarget "cruzHacksMoneyTests" */;
+			buildPhases = (
+				84AE515D201343E60047313C /* Sources */,
+				84AE515E201343E60047313C /* Frameworks */,
+				84AE515F201343E60047313C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AE5163201343E60047313C /* PBXTargetDependency */,
+			);
+			name = cruzHacksMoneyTests;
+			productName = cruzHacksMoneyTests;
+			productReference = 84AE5161201343E60047313C /* cruzHacksMoneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84AE516B201343E60047313C /* cruzHacksMoneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AE517B201343E60047313C /* Build configuration list for PBXNativeTarget "cruzHacksMoneyUITests" */;
+			buildPhases = (
+				84AE5168201343E60047313C /* Sources */,
+				84AE5169201343E60047313C /* Frameworks */,
+				84AE516A201343E60047313C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AE516E201343E60047313C /* PBXTargetDependency */,
+			);
+			name = cruzHacksMoneyUITests;
+			productName = cruzHacksMoneyUITests;
+			productReference = 84AE516C201343E60047313C /* cruzHacksMoneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AE5145201343E60047313C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Preston Ong";
+				TargetAttributes = {
+					84AE514C201343E60047313C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					84AE5160201343E60047313C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84AE514C201343E60047313C;
+					};
+					84AE516B201343E60047313C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84AE514C201343E60047313C;
+					};
+				};
+			};
+			buildConfigurationList = 84AE5148201343E60047313C /* Build configuration list for PBXProject "cruzHacksMoney" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84AE5144201343E60047313C;
+			productRefGroup = 84AE514E201343E60047313C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AE514C201343E60047313C /* cruzHacksMoney */,
+				84AE5160201343E60047313C /* cruzHacksMoneyTests */,
+				84AE516B201343E60047313C /* cruzHacksMoneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AE514B201343E60047313C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AE515B201343E60047313C /* LaunchScreen.storyboard in Resources */,
+				84AE5158201343E60047313C /* Assets.xcassets in Resources */,
+				84AE5156201343E60047313C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AE515F201343E60047313C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AE516A201343E60047313C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AE5149201343E60047313C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AE5181201348EE0047313C /* WelcomeViewController.swift in Sources */,
+				84AE518D20141BC20047313C /* ExpensesDetailedTableViewController.swift in Sources */,
+				84AE518F201464230047313C /* ResultTableViewController.swift in Sources */,
+				84F045E32014FDD2000537BC /* AdviceTableViewController.swift in Sources */,
+				84AE51852013673A0047313C /* IncomeAssetTableViewController.swift in Sources */,
+				84AE517F201344B40047313C /* HomeTableViewController.swift in Sources */,
+				84AE51892013F7920047313C /* ExpensesTableViewController.swift in Sources */,
+				84AE518B201413B20047313C /* ExpensesTableViewCell.swift in Sources */,
+				84AE5183201350220047313C /* userData.swift in Sources */,
+				84AE51872013CB6E0047313C /* ReviewIncomeViewController.swift in Sources */,
+				84AE5151201343E60047313C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AE515D201343E60047313C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AE5166201343E60047313C /* cruzHacksMoneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AE5168201343E60047313C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AE5171201343E60047313C /* cruzHacksMoneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84AE5163201343E60047313C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AE514C201343E60047313C /* cruzHacksMoney */;
+			targetProxy = 84AE5162201343E60047313C /* PBXContainerItemProxy */;
+		};
+		84AE516E201343E60047313C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AE514C201343E60047313C /* cruzHacksMoney */;
+			targetProxy = 84AE516D201343E60047313C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84AE5154201343E60047313C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AE5155201343E60047313C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84AE5159201343E60047313C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AE515A201343E60047313C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AE5173201343E60047313C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84AE5174201343E60047313C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AE5176201343E60047313C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDLABV6Y98;
+				INFOPLIST_FILE = cruzHacksMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = preston4896.hacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84AE5177201343E60047313C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDLABV6Y98;
+				INFOPLIST_FILE = cruzHacksMoney/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = preston4896.hacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84AE5179201343E60047313C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDLABV6Y98;
+				INFOPLIST_FILE = cruzHacksMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = preston4896.cruzHacksMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cruzHacksMoney.app/cruzHacksMoney";
+			};
+			name = Debug;
+		};
+		84AE517A201343E60047313C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDLABV6Y98;
+				INFOPLIST_FILE = cruzHacksMoneyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = preston4896.cruzHacksMoneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cruzHacksMoney.app/cruzHacksMoney";
+			};
+			name = Release;
+		};
+		84AE517C201343E60047313C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDLABV6Y98;
+				INFOPLIST_FILE = cruzHacksMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = preston4896.cruzHacksMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cruzHacksMoney;
+			};
+			name = Debug;
+		};
+		84AE517D201343E60047313C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SDLABV6Y98;
+				INFOPLIST_FILE = cruzHacksMoneyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = preston4896.cruzHacksMoneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cruzHacksMoney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AE5148201343E60047313C /* Build configuration list for PBXProject "cruzHacksMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AE5173201343E60047313C /* Debug */,
+				84AE5174201343E60047313C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AE5175201343E60047313C /* Build configuration list for PBXNativeTarget "cruzHacksMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AE5176201343E60047313C /* Debug */,
+				84AE5177201343E60047313C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AE5178201343E60047313C /* Build configuration list for PBXNativeTarget "cruzHacksMoneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AE5179201343E60047313C /* Debug */,
+				84AE517A201343E60047313C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AE517B201343E60047313C /* Build configuration list for PBXNativeTarget "cruzHacksMoneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AE517C201343E60047313C /* Debug */,
+				84AE517D201343E60047313C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AE5145201343E60047313C /* Project object */;
+}
